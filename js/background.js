@@ -11,6 +11,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     changeBackgroundImage();
 
-    setInterval(changeBackgroundImage, 1000);
+    setInterval(changeBackgroundImage, 4000);
 });
 

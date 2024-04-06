@@ -1,3 +1,118 @@
+#content {
+  margin-top: 100px; }
+
+.album {
+  display: flex;
+  margin: 20px 50px;
+  background-color: #141021;
+  padding: 20px;
+  animation: slideInFromRight 1.5s ease-in-out;
+  transition: transform 0.3s ease;
+  border-bottom-left-radius: 15px 125px;
+  border-bottom-right-radius: 155px 15px;
+  border-top-left-radius: 125px 15px;
+  border-top-right-radius: 15px 155px;
+  border: 2px solid #e0dce3; }
+  .albumcover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 256px;
+    width: 256px;
+    border-bottom-right-radius: 15px 155px;
+    border-bottom-left-radius: 125px 15px;
+    border-top-right-radius: 155px 15px;
+    border-top-left-radius: 15px 125px;
+    border: 2px solid #e0dce3; }
+  .albuminfo {
+    margin: 25px;
+    display: inline-block;
+    font-size: 26px; }
+    .albuminfo > h1 {
+      font-size: 48px;
+      font-weight: bold;
+      margin: 0; }
+    .albuminfo > .button {
+      text-align: center;
+      width: 196px;
+      border-bottom-left-radius: 15px 255px;
+      border-bottom-right-radius: 225px 15px;
+      border-top-left-radius: 255px 15px;
+      border-top-right-radius: 15px 225px;
+      border: 1px solid #e0dce3;
+      margin: 10px;
+      transition: transform 0.3s ease; }
+      .albuminfo > .button:hover {
+        transform: scale(1.05); }
+
+.dont_be_afraid_of_dyingbutton:hover {
+  color: #8325a3;
+  border: 1px solid #8325a3; }
+
+.it_just_gets_worsebutton:hover {
+  color: #d93040;
+  border: 1px solid #d93040; }
+
+.child_sacrificebutton:hover {
+  color: #eb8f51;
+  border: 1px solid #eb8f51; }
+
+.sewerslvtbutton:hover {
+  color: #d93040;
+  border: 1px solid #d93040; }
+
+.starving_slvts_always_get_thier_fixbutton:hover {
+  color: #8325a3;
+  border: 1px solid #8325a3; }
+
+.drowning_in_the_sewerbutton:hover {
+  color: #8325a3;
+  border: 1px solid #8325a3; }
+
+.infatuationbutton:hover {
+  color: #8325a3;
+  border: 1px solid #8325a3; }
+
+.cyberiabutton:hover {
+  color: #eb8f51;
+  border: 1px solid #eb8f51; }
+
+.irlybutton:hover {
+  color: #e39ae2;
+  border: 1px solid #e39ae2; }
+
+.draining_love_storybutton:hover {
+  color: #4379c4;
+  border: 1px solid #4379c4; }
+
+.worthlessnessbutton:hover {
+  color: #e39ae2;
+  border: 1px solid #e39ae2; }
+
+.tortvred_lesbians_ripped_apartbutton:hover {
+  color: #d93040;
+  border: 1px solid #d93040; }
+
+.if_youre_out_there_i_miss_youbutton:hover {
+  color: #8325a3;
+  border: 1px solid #8325a3; }
+
+.suffering_from_melancholiabutton:hover {
+  color: #8325a3;
+  border: 1px solid #8325a3; }
+
+.the_world_is_fvckedbutton:hover {
+  color: #eab340;
+  border: 1px solid #eab340; }
+
+.skitzofrenia_simulationbutton:hover {
+  color: #79cae1;
+  border: 1px solid #79cae1; }
+
+.we_had_good_times_together_dont_forget_thatbutton:hover {
+  color: #4379c4;
+  border: 1px solid #4379c4; }
+
 @keyframes slideIn {
   from {
     transform: translateY(-100%); }
@@ -90,7 +205,6 @@ nav {
   font-size: 24px;
   margin: 0 10px;
   cursor: pointer;
-  transition: transform 0.3s ease;
   animation: slideIn 0.5s ease-in-out;
   transition: transform 0.3s ease; }
   .navbutton:hover {

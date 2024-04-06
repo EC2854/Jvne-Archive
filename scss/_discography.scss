@@ -1,0 +1,158 @@
+#content {
+    margin-top: 100px;
+}
+.album{
+    display: flex;
+    margin: 20px 50px;
+    background-color: $base;
+    padding: 20px;
+    animation: slideInFromRight 1.5s ease-in-out;
+    transition: transform 0.3s ease;
+    border-bottom-left-radius: 15px 125px;
+    border-bottom-right-radius: 155px 15px;
+    border-top-left-radius: 125px 15px;
+    border-top-right-radius:15px 155px;
+    border: 2px solid $text;
+    &cover {
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        height: 256px;
+        width: 256px;
+        border-bottom-right-radius:15px 155px;
+        border-bottom-left-radius: 125px 15px;
+        border-top-right-radius: 155px 15px;
+        border-top-left-radius: 15px 125px;
+        border: 2px solid $text;
+    }
+    &info {
+        margin: 25px;
+        display: inline-block;
+        font-size: 26px;
+        & > h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 0;
+        }
+        & > .button {
+            text-align: center;
+            width: 196px;
+            border-bottom-left-radius:15px 255px;
+            border-bottom-right-radius: 225px 15px;
+            border-top-left-radius: 255px 15px;
+            border-top-right-radius: 15px 225px;
+            border: 1px solid $text;
+            margin: 10px;
+            transition: transform 0.3s ease;
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+}
+.dont_be_afraid_of_dying {
+    &button:hover {
+        color: $drowningPurple;
+        border: 1px solid $drowningPurple;
+    }
+}
+.it_just_gets_worse {
+    &button:hover {
+        color: $tortvredRed;
+        border: 1px solid $tortvredRed;
+    }
+}
+.child_sacrifice {
+    &button:hover {
+        color: $cyberianOrange;
+        border: 1px solid $cyberianOrange;
+    }
+}
+.sewerslvt {
+    &button:hover {
+        color: $tortvredRed;
+        border: 1px solid $tortvredRed;
+    }
+}
+.starving_slvts_always_get_thier_fix {
+    &button:hover {
+        color: $drowningPurple;
+        border: 1px solid $drowningPurple;
+    }
+}
+.drowning_in_the_sewer {
+    &button:hover {
+        color: $drowningPurple;
+        border: 1px solid $drowningPurple;
+    }
+}
+.infatuation {
+    &button:hover {
+        color: $drowningPurple;
+        border: 1px solid $drowningPurple;
+    }
+}
+.cyberia {
+    &button:hover {
+        color: $cyberianOrange;
+        border: 1px solid $cyberianOrange;
+    }
+}
+.irly {
+    &button:hover {
+        color: $irlyPink;
+        border: 1px solid $irlyPink;
+    }
+}
+.draining_love_story {
+    &button:hover {
+        color: $drainingBlue;
+        border: 1px solid $drainingBlue;
+    }
+}
+.worthlessness {
+    &button:hover {
+        color: $irlyPink;
+        border: 1px solid $irlyPink;
+    }
+}
+.tortvred_lesbians_ripped_apart {
+    &button:hover {
+        color: $tortvredRed;
+        border: 1px solid $tortvredRed;
+    }
+}
+.if_youre_out_there_i_miss_you {
+    &button:hover {
+        color: $drowningPurple;
+        border: 1px solid $drowningPurple;
+    }
+}
+.suffering_from_melancholia {
+    &button:hover {
+        color: $drowningPurple;
+        border: 1px solid $drowningPurple;
+    }
+}
+.the_world_is_fvcked {
+    &button:hover {
+        color: $fvckedYellow;
+        border: 1px solid $fvckedYellow;
+    }
+}
+.skitzofrenia_simulation {
+    &button:hover {
+        color: $skitzofrenicAqua;
+        border: 1px solid $skitzofrenicAqua;
+    }
+}
+.we_had_good_times_together_dont_forget_that {
+    &button:hover {
+        color: $drainingBlue;
+        border: 1px solid $drainingBlue;
+    }
+}
+
+
+
+
