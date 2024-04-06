@@ -1,0 +1,13 @@
+// Colors
+@import "colors.scss";
+@import "header.scss";
+@import "home.scss";
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: "Nothing You Could Do", cursive;
+    color: $text;
+    background-color: $base0;
+}

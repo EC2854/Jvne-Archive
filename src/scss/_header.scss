@@ -1,0 +1,112 @@
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.animate-header {
+    animation: slideIn 0.5s ease-in-out;
+}
+header {
+    background-color: $base;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+#logo {
+    opacity: 0;
+    margin-left: 20px;
+    align-items: center; 
+    cursor: pointer;
+    display: flex;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.05);
+        filter: brightness(1.2);
+    }
+
+    &img {
+        background-image: url('./images/icons/logo.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: inline-block;
+        height: 48px;
+        width: 48px;
+    }
+    &text {
+        display: inline-block;
+        font-size: 32px;
+        height: 32px;
+        padding: 8px;
+    }
+}
+.animate-logo {
+    animation: slideInFromLeft 0.5s ease-in-out;
+    opacity: 1 !important;
+}
+#links {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.icon {
+    cursor: pointer;
+    display: inline-block;
+    height: 32px; 
+    margin-left: 5px;
+    margin-right: 5px;
+    animation: slideInFromRight 0.5s ease-in-out;
+    transition: transform 0.3s ease;
+    width: 32px;
+    &:hover {
+        filter: brightness(2.0);
+        transform: scale(1.1);
+    }
+}
+nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.navbutton {
+    display: inline-block;
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    animation: slideIn 0.5s ease-in-out;
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: scale(1.05);
+        filter: brightness(1.2);
+    }
+}
