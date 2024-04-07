@@ -584,15 +584,15 @@ document.addEventListener("DOMContentLoaded", function() {
             "songs":[
                 { 
                     "name": "dissociating", 
-                    "url": "" 
+                    "url": "https://www.youtube.com/watch?v=w0tgJ_bPPfE" 
                 },
                 { 
                     "name": "self destruction worldwide broadcast", 
-                    "url": "" 
+                    "url": "https://www.youtube.com/watch?v=wbm5K01nDqc" 
                 },
                 { 
                     "name": "all the joy in life was gone once you left", 
-                    "url": "" 
+                    "url": "https://www.youtube.com/watch?v=UTwB8iJOux0" 
                 },
                 { 
                     "name": "the last thing she sent me", 
