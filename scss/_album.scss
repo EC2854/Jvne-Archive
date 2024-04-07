@@ -6,6 +6,7 @@
     width: 64px;
     transition: transform 0.3s ease;
     position: fixed;
+    cursor: pointer;
     &:hover {
         transform: scale(1.05);
     }
@@ -24,7 +25,7 @@
     background-color: $base;
     padding: 20px;
     display: flex;
-    animation: slideInFromRight 1.5s ease-in-out;
+    animation: slideInFromRight 1.0s ease-in-out;
     
     & > .albumcover {
         height: 512px;
@@ -50,6 +51,7 @@
     width: 32px;
     height: 32px;
     transition: transform 0.3s ease;
+    cursor: pointer;
     &:hover {
         transform: scale(1.1);
     }

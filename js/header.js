@@ -19,7 +19,6 @@ function generateIcons() {
 function generateNavigation() {
     const links = [
         { url: "./index.html", text: "Home" },
-        { url: "./about.html",  text: "About"},
         { url: "./discography.html", text: "Discography"}
     ];
     const navContainer = document.querySelector("nav");

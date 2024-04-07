@@ -521,7 +521,7 @@ document.addEventListener("DOMContentLoaded", function() {
             "cover": "images/covers/skitzofrenia_simulation.png",
             "songs":[
                 { 
-                    "name": "My Fvcked Up Head", 
+                    "name": "My F***** Up Head", 
                     "url": "https://www.youtube.com/watch?v=tbg1zTIh1Fk" 
                 },
                 { 
@@ -553,7 +553,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     "url": "https://www.youtube.com/watch?v=dTh4cp_ypu4" 
                 },
                 { 
-                    "name": "Slvtcrvsher", 
+                    "name": "S***crvsher", 
                     "url": "https://www.youtube.com/watch?v=ev2xdPRAiqM" 
                 },
                 { 

@@ -6,7 +6,7 @@
     margin: 20px 50px;
     background-color: $base;
     padding: 20px;
-    animation: slideInFromRight 1.5s ease-in-out;
+    animation: slideInFromRight 1.0s ease-in-out;
     transition: transform 0.3s ease;
     border-bottom-left-radius: 15px 125px;
     border-bottom-right-radius: 155px 15px;
@@ -36,6 +36,7 @@
         }
         & > .button {
             text-align: center;
+            cursor: pointer;
             width: 196px;
             border-bottom-left-radius:15px 255px;
             border-bottom-right-radius: 225px 15px;

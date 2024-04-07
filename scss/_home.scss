@@ -34,6 +34,7 @@
         align-items: center;
         & > #button {
             border:solid 4px $text;
+            cursor: pointer;
             width: 256px;
             border-bottom-left-radius:15px 255px;
             border-bottom-right-radius: 225px 15px;

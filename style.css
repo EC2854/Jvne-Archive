@@ -6,7 +6,7 @@
   margin: 20px 50px;
   background-color: #141021;
   padding: 20px;
-  animation: slideInFromRight 1.5s ease-in-out;
+  animation: slideInFromRight 1.0s ease-in-out;
   transition: transform 0.3s ease;
   border-bottom-left-radius: 15px 125px;
   border-bottom-right-radius: 155px 15px;
@@ -34,6 +34,7 @@
       margin: 0; }
     .albuminfo > .button {
       text-align: center;
+      cursor: pointer;
       width: 196px;
       border-bottom-left-radius: 15px 255px;
       border-bottom-right-radius: 225px 15px;
@@ -218,7 +219,8 @@ nav {
   height: 64px;
   width: 64px;
   transition: transform 0.3s ease;
-  position: fixed; }
+  position: fixed;
+  cursor: pointer; }
   #back:hover {
     transform: scale(1.05); }
 
@@ -236,7 +238,7 @@ nav {
   background-color: #141021;
   padding: 20px;
   display: flex;
-  animation: slideInFromRight 1.5s ease-in-out; }
+  animation: slideInFromRight 1.0s ease-in-out; }
   .fullalbum > .albumcover {
     height: 512px;
     width: 512px;
@@ -257,7 +259,8 @@ nav {
   background-image: url("./images/icons/youtube.png");
   width: 32px;
   height: 32px;
-  transition: transform 0.3s ease; }
+  transition: transform 0.3s ease;
+  cursor: pointer; }
   .ytbutton:hover {
     transform: scale(1.1); }
 
@@ -305,6 +308,7 @@ nav {
     align-items: center; }
     #message > #buttons > #button {
       border: solid 4px #e0dce3;
+      cursor: pointer;
       width: 256px;
       border-bottom-left-radius: 15px 255px;
       border-bottom-right-radius: 225px 15px;
