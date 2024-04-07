@@ -1,0 +1,67 @@
+#back {
+    opacity: 0;
+    margin-left: 20px;
+    background-image: url('./images/icons/back.png');
+    height: 64px;
+    width: 64px;
+    transition: transform 0.3s ease;
+    position: fixed;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+.animate-back {
+    animation: slideInFromLeft 0.5s ease-in-out;
+    opacity: 1 !important;
+}
+.fullalbum {
+    margin: 96px;
+    border-bottom-left-radius: 15px 125px;
+    border-bottom-right-radius: 155px 15px;
+    border-top-left-radius: 125px 15px;
+    border-top-right-radius:15px 155px;
+    border: 2px solid $text;
+    background-color: $base;
+    padding: 20px;
+    display: flex;
+    animation: slideInFromRight 1.5s ease-in-out;
+    
+    & > .albumcover {
+        height: 512px;
+        width: 512px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        border-bottom-right-radius:15px 155px;
+        border-bottom-left-radius: 125px 15px;
+        border-top-right-radius: 155px 15px;
+        border-top-left-radius: 15px 125px;
+        border: 2px solid $text;
+    }
+    & > .albuminfo {
+        display: inline-block;
+        font-size: 26px;
+    }
+}
+
+.ytbutton {
+    background-image: url('./images/icons/youtube.png');
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s ease;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+.table {
+    background-color: $base1;
+    & > * {
+        padding: 5px 20px;
+        border-top-right-radius:15px 155px;
+        border-top-left-radius: 125px 15px;
+        border-bottom-right-radius: 155px 15px;
+        border-bottom-left-radius: 15px 125px;
+        border: 1px solid $text;
+    }
+}

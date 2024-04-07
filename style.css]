@@ -226,51 +226,6 @@ nav {
   animation: slideInFromLeft 0.5s ease-in-out;
   opacity: 1 !important; }
 
-.fullalbum {
-  margin: 96px;
-  border-bottom-left-radius: 15px 125px;
-  border-bottom-right-radius: 155px 15px;
-  border-top-left-radius: 125px 15px;
-  border-top-right-radius: 15px 155px;
-  border: 2px solid #e0dce3;
-  background-color: #141021;
-  padding: 20px;
-  display: flex;
-  animation: slideInFromRight 1.5s ease-in-out; }
-  .fullalbum > .albumcover {
-    height: 512px;
-    width: 512px;
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-block;
-    border-bottom-right-radius: 15px 155px;
-    border-bottom-left-radius: 125px 15px;
-    border-top-right-radius: 155px 15px;
-    border-top-left-radius: 15px 125px;
-    border: 2px solid #e0dce3; }
-  .fullalbum > .albuminfo {
-    display: inline-block;
-    font-size: 26px; }
-
-.ytbutton {
-  background-image: url("./images/icons/youtube.png");
-  width: 32px;
-  height: 32px;
-  transition: transform 0.3s ease; }
-  .ytbutton:hover {
-    transform: scale(1.1); }
-
-.table {
-  background-color: #201d35; }
-  .table > * {
-    padding: 5px 20px;
-    border-top-right-radius: 15px 155px;
-    border-top-left-radius: 125px 15px;
-    border-bottom-right-radius: 155px 15px;
-    border-bottom-left-radius: 15px 125px;
-    border: 1px solid #e0dce3; }
-
 #title {
   height: 100vh;
   width: 100%;

@@ -13,7 +13,7 @@
     border-top-left-radius: 125px 15px;
     border-top-right-radius:15px 155px;
     border: 2px solid $text;
-    &cover {
+    & > &cover {
         background-repeat: no-repeat;
         background-size: cover;
         display: inline-block;
